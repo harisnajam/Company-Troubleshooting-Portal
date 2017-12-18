@@ -1,0 +1,87 @@
+.root {
+	-fx-background-color: white;
+	-fx-font-family: "Segoe UI";
+	-fx-focus-color: transparent;
+	-fx-text-fill: white;
+	-fx-font-size: 14;
+}
+
+.label {
+	-fx-text-fill: rgb(43, 86, 154);
+}
+
+.button {
+	-fx-min-height: 30;
+	-fx-min-width: 180;
+	-fx-color: rgb(53, 105, 191);
+        -fx-text-fill: white;
+	-fx-background-color: rgb(53, 105, 191);
+	-fx-border-color: rgb(53, 105, 191);
+}
+
+.button:hover {
+	-fx-background-color: rgb(53, 105, 191);
+	-fx-border-color: white;
+	-fx-cursor: hand;
+}
+
+.button:pressed {
+	-fx-background-color: rgb(37, 72, 131);
+	-fx-border-color: white;
+}
+
+.text-field {
+        -fx-min-height: 30;
+        -fx-max-width: 250;
+        -fx-border-color: rgb(43, 86, 154);
+        -fx-text-fill: rgb(43, 86, 154);
+}
+
+.choice-box {
+        -fx-background-color: white;
+        -fx-border-color: rgb(43, 86, 154);
+        -fx-min-width: 100;
+        -fx-font-size: 14;
+}
+
+#paneleft {
+	-fx-padding: 60 20 20 20;
+	-fx-spacing: 25;
+        -fx-min-width: 200;
+}
+
+#paneright {
+	-fx-padding: 20 20 20 20;
+	-fx-spacing: 10;
+        -fx-min-width: 500;
+}
+
+#title {
+	-fx-background-color: rgb(43, 86, 154);
+}
+
+#panetitle {
+        -fx-background-color: rgb(43, 86, 154);
+}
+
+#title {
+        -fx-text-fill: white;
+        -fx-font-size: 40;
+}
+
+#greeting {
+        -fx-text-fill: white;
+	-fx-font-size: 20;
+}
+
+#panebutton {
+	-fx-background-color: rgb(43, 86, 154);
+	-fx-padding: 20 40 20 40;
+	-fx-spacing: 20;
+}
+
+#lblError {
+	-fx-font-size: 12;
+	-fx-text-fill: rgb(43, 86, 154);
+	-fx-font-style: italic;
+}

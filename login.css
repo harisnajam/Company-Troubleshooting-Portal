@@ -1,0 +1,49 @@
+.root {
+	-fx-background-color: rgb(43, 86, 154);
+	-fx-font-family: "Segoe UI";
+	-fx-focus-color: transparent;
+	-fx-font-color: white;
+	-fx-font-size: 14;
+}
+
+.label {
+	-fx-text-fill: white;
+}
+
+.text-field {
+	-fx-border-color: white;
+	-fx-background-insets: 0;
+}
+
+.button {
+	-fx-color: rgb(53, 105, 191);
+	-fx-background-color: rgb(53, 105, 191);
+	-fx-border-color: rgb(53, 105, 191);
+}
+
+
+.button:hover {
+	-fx-background-color: rgb(53, 105, 191);
+	-fx-border-color: white;
+	-fx-cursor: hand;
+}
+
+.button:pressed {
+	-fx-background-color: rgb(37, 72, 131);
+	-fx-border-color: white;
+}
+
+.text-field{
+	-fx-min-height: 30;
+}
+
+#lblTitle {
+	-fx-font-size: 30;
+	-fx-font-family: "Segoe UI Light";
+}
+
+#lblError {
+	-fx-font-size: 12;
+	-fx-text-fill: white;
+	-fx-font-style: italic;
+}
